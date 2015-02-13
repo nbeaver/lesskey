@@ -1,6 +1,6 @@
 # Move to the next file with the left and right arrow keys.
 \kr         next-file
-\kr         prev-file
+\kl         prev-file
 # Inspiration: http://linuxgazette.net/174/grebler.html
 
 # Make spacebar, f-key, and page-down scroll a full screenful,

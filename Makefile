@@ -1,2 +1,2 @@
-$HOME/.less : lesskey.txt Makefile
-	/usr/bin/lesskey lesskey.txt
+"$HOME/.less" : lesskey Makefile
+	/usr/bin/lesskey ./lesskey
