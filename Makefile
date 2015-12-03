@@ -1,2 +1,2 @@
-"$HOME/.less" : lesskey Makefile
-	/usr/bin/lesskey ./lesskey
+"${HOME}/.less" : .lesskey Makefile
+	lesskey ./.lesskey
