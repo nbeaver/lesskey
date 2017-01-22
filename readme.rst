@@ -8,3 +8,11 @@ and ``less`` will apply those customizations each time it runs.
 The keybindings file does not need to be ``~/.lesskey``,
 but it might be easier to find that way.
 I've symlinked ``~/.lesskey`` to the `lesskey file <.lesskey>`_ in my local repository.
+
+-------
+License
+-------
+
+This project is licensed under the terms of the `MIT license`_.
+
+.. _MIT license: LICENSE.txt
