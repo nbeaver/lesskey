@@ -1,4 +1,8 @@
+#command
 # Move to the next file with the left and right arrow keys.
+# Defaults are:
+# :n next-file
+# :p prev-file
 \kr         next-file
 \kl         prev-file
 # Inspiration: http://linuxgazette.net/174/grebler.html
@@ -16,8 +20,8 @@ h           left-scroll
 f           forw-screen-force
 \40         forw-screen-force
 
+#env
 # Make lesss use case-insensitive search by default (-i)
 # and display color (-R).
-#env
 LESS = -i -R
 # Source: https://ascending.wordpress.com/2011/02/11/unix-tip-make-less-more-friendly/
