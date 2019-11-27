@@ -16,6 +16,9 @@
 f           forw-screen-force
 \40         forw-screen-force
 
+# PgUp and PgDn keys don't work.
+# https://unix.stackexchange.com/questions/88579/shift-space-in-less
+
 #env
 # Make lesss use case-insensitive search by default (-i)
 # and display color (-R).
