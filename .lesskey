@@ -14,16 +14,6 @@ f           forw-screen-force
 # Spacebar (40 in octal)
 \40         forw-screen-force
 
-# PgUp and PgDn keys don't work.
-# https://unix.stackexchange.com/questions/88579/shift-space-in-less
-# https://serverfault.com/questions/121904/less-use-pageup-pagedown-keys-in-solaris
-#\kD forw-screen
-#\kU back-screen
-#\e[6~ forw-screen
-#\e[5~ back-screen
-#^[[6~ forw-screen
-#^[[5~ back-screen
-
 #env
 # Make lesss use case-insensitive search by default (-i)
 # and display color (-R).
