@@ -7,9 +7,6 @@
 \kl         prev-file
 # Inspiration: http://linuxgazette.net/174/grebler.html
 
-# Make Esc-[ scroll to the left.
-\e[       left-scroll
-
 # Make spacebar, f-key, and page-down scroll a full screenful,
 # even if it reaches end-of-file in the process.
 # PageDown
