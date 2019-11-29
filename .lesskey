@@ -7,12 +7,14 @@
 \kl         prev-file
 # Inspiration: http://linuxgazette.net/174/grebler.html
 
-# Make spacebar, f-key, and page-down scroll a full screenful,
+# Make spacebar, f-key, and Page Down scroll a full screenful,
 # even if it reaches end-of-file in the process.
 # PageDown
 f           forw-screen-force
 # Spacebar (40 in octal)
 \40         forw-screen-force
+# PageDown
+\kD         forw-screen-force
 
 #env
 # Make lesss use case-insensitive search by default (-i)
